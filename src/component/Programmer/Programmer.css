@@ -1,0 +1,27 @@
+.programmer-grid-container {
+    box-shadow: 0 4px 8px 0 rgb(191, 255, 0);
+    transition: 5s;
+    height: auto;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.programmer-grid-container:hover {
+    box-shadow: 0 4px 42px 0 rgba(0, 0, 0, 0.2);
+    background-color: rgb(128, 236, 19);
+    color: black;
+}
+
+.img-style img {
+    width: 50%;
+}
+
+img {
+    padding-top: 5px;
+    border-radius: 50%;
+}
+
+.developer-details {
+    padding: 5px;
+    font-weight: bold;
+}

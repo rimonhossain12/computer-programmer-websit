@@ -22,7 +22,7 @@ const Header = () => {
             <div className="header-intro">
                 <h2>Invention New Technologies and Developed By <span className="computer-program">Computer programmer</span> in this world</h2>
                 <p>Their are many computer programming languages & also have many computer languages developer</p>
-                <h4>Countries total computer programming languages Developers: 300</h4>
+                <h4>Countries total computer programming languages Developers: <span className="programmer-number">300</span></h4>
             </div>
         </div >
     );
