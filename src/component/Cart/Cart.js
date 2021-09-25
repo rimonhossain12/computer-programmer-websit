@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Programmer from '../Programmer/Programmer';
+import ProgrammerDetails from '../ProgrammerDetails/ProgrammerDetails';
 import './Cart.css';
 const Cart = () => {
     const [programmer, setProgrammer] = useState([]);
@@ -23,7 +24,7 @@ const Cart = () => {
                 }
             </div>
             <div className="cart-button">
-                <h2>Order Summary</h2>
+                <ProgrammerDetails></ProgrammerDetails>
             </div>
         </div>
     );

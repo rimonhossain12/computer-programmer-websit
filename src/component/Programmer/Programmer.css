@@ -9,7 +9,7 @@
 
 .programmer-grid-container:hover {
     box-shadow: 0 4px 42px 0 rgba(0, 0, 0, 0.2);
-    background-color: rgb(128, 236, 19);
+    background-color: rgb(191, 255, 0);
     color: black;
 }
 /* img size control */
