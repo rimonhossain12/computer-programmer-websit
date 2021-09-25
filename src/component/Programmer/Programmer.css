@@ -1,3 +1,4 @@
+/* box shadow property */
 .programmer-grid-container {
     box-shadow: 0 4px 8px 0 rgb(191, 255, 0);
     transition: 5s;
@@ -15,6 +16,7 @@
 .img-style img {
     width: 50%;
 }
+/* img size control */
 
 img {
     padding-top: 5px;
@@ -24,4 +26,15 @@ img {
 .developer-details {
     padding: 5px;
     font-weight: bold;
+}
+/* button styles */
+.btn-style {
+    width: 140px;
+    height: 45px;
+    background-color: goldenrod;
+    margin-bottom: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
 }

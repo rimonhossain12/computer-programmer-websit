@@ -17,6 +17,7 @@ const Programmer = (props) => {
                 <p>Salary: {salary}</p>
                 <p>Country: {country}</p>
             </div>
+            <button className="btn-style">add to cart</button>
         </div>
     );
 };
