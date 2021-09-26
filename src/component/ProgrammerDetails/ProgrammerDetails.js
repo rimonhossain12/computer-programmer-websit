@@ -21,8 +21,8 @@ const ProgrammerDetails = (props) => {
         <div className="programmer-details">
             <h2 >programmer Details: {shoppingCartIcon}</h2>
             <hr className="unique-hr" />
-            <h3>Length: {cart.length}</h3>
-            <h5>Salary: {totalSalary}</h5>
+            <h3>Total: {cart.length}</h3>
+            <h5>Salary: ${totalSalary}</h5>
             {
                 cart.map(data => <h5>
                     Name: {data.name} </h5>
