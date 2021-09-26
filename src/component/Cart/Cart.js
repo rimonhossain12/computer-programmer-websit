@@ -4,6 +4,10 @@ import ProgrammerDetails from '../ProgrammerDetails/ProgrammerDetails';
 import './Cart.css';
 const Cart = () => {
     const [programmer, setProgrammer] = useState([]);
+    // use state for passing date in other function or obejct;
+
+
+
     // using api for recieved URL data or local machiene data
     useEffect(() => {
         fetch('./data.json')
