@@ -1,0 +1,21 @@
+.programmer-details {
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2);
+    padding: 10px 15px;
+}
+
+.unique-hr {
+    width: 80%
+}
+
+/* details button styles */
+.programmer-details button {
+
+    width: 140px;
+    height: 45px;
+    background-color: goldenrod;
+    margin-bottom: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}

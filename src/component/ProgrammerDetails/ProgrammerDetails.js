@@ -1,6 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
+import './ProgrammerDetails.css';
 
 const ProgrammerDetails = (props) => {
     // use destucturing for iterate loop
@@ -17,8 +18,9 @@ const ProgrammerDetails = (props) => {
     }
 
     return (
-        <div>
-            <h2>programmer Details: {shoppingCartIcon}</h2>
+        <div className="programmer-details">
+            <h2 >programmer Details: {shoppingCartIcon}</h2>
+            <hr className="unique-hr" />
             <h3>Length: {cart.length}</h3>
             <h5>Salary: {totalSalary}</h5>
             {
@@ -26,6 +28,7 @@ const ProgrammerDetails = (props) => {
                     Name: {data.name} </h5>
                 )
             }
+            <button className="btn-style">{shoppingCartIcon} show details</button>
 
         </div>
     );
