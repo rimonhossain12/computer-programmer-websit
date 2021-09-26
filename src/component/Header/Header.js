@@ -20,7 +20,7 @@ const Header = () => {
                 </div>
             </div>
             <div className="header-intro">
-                <h2>Invetion New Technologies We are hiring best <span className="computer-program">Computer programmer</span> in this world</h2>
+                <h2>Invention New Technologies We are hiring best <span className="computer-program">Computer programmer</span> in this world</h2>
                 <p>Their are many computer programming languages & also have many computer languages developer</p>
                 <h4>Total Computer languages developer and computer programmer are Registration: 10000</h4>
                 <h4>Total Budget is :<span className="programmer-number"> 2000 Million</span></h4>

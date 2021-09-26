@@ -18,7 +18,7 @@ const Cart = () => {
     // handle details buttons
     const handleShowDetails = (value) => {
         const newValue = [...cart, value];
-        console.log('button is clicked');
+        // console.log('button is clicked');
         setCart(newValue);
     }
 

@@ -5,7 +5,14 @@
     height: auto;
     text-align: center;
     border-radius: 10px;
+    background-color: lightskyblue;
 }
+
+    /* .developer-details {
+        background-color: lightskyblue;
+        margin-top: 5px;
+        margin-bottom: 5px;
+} */
 
 .programmer-grid-container:hover {
     box-shadow: 0 4px 42px 0 rgba(0, 0, 0, 0.2);
@@ -27,7 +34,7 @@
 .btn-style {
     width: 140px;
     height: 45px;
-    background-color: goldenrod;
+    background-color:goldenrod;
     margin-bottom: 10px;
     border: 1px solid gray;
     border-radius: 5px;
