@@ -5,7 +5,7 @@ import './Cart.css';
 const Cart = () => {
     const [programmer, setProgrammer] = useState([]);
     // use state for passing date in other function or obejct;
-
+    const [cart, setCart] = useState([]);
 
 
     // using api for recieved URL data or local machiene data
@@ -14,6 +14,13 @@ const Cart = () => {
             .then(res => res.json())
             .then(data => setProgrammer(data))
     }, [])
+
+    // handle details buttons
+    const handleShowDetails = (value) => {
+        const newValue = [...cart, value];
+        console.log('button is clicked');
+        setCart(newValue);
+    }
 
     return (
         <div className="cart-container">
@@ -24,11 +31,12 @@ const Cart = () => {
                         // using key for react performance
                         key={programerData.Rankig}
                         programmer={programerData}
+                        handleShowDetails={handleShowDetails}
                     ></Programmer>)
                 }
             </div>
             <div className="cart-button">
-                <ProgrammerDetails></ProgrammerDetails>
+                <ProgrammerDetails cart={cart}></ProgrammerDetails>
             </div>
         </div>
     );

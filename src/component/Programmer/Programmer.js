@@ -4,6 +4,7 @@ import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 import './Programmer.css';
 
 const Programmer = (props) => {
+    // console.log(props)
     // console.log(props.programmer)
     // using destructuring
     const { Rankig, picture, name, Role, country, salary } = props.programmer;
@@ -22,7 +23,9 @@ const Programmer = (props) => {
                 <p>Salary: ${salary}</p>
                 <p>Country: {country}</p>
             </div>
-            <button className="btn-style"> {shoppingCartIcon} add to cart</button>
+            <button
+                onClick={() => props.handleShowDetails(props.programmer)}
+                className="btn-style"> {shoppingCartIcon} add to cart</button>
         </div>
     );
 };
